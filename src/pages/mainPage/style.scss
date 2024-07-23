@@ -1,0 +1,24 @@
+@import '../../shared/assets/style/index.scss';
+
+.input {
+  margin-bottom: 1.5rem;
+  width: 25rem;
+}
+
+.btn {
+  margin-left: 1rem;
+  width: 25rem;
+
+
+  padding: 0.5rem 1.5rem;
+  box-sizing: border-box;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    background-color: $c-grey;
+  }
+}
